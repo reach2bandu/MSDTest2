@@ -1,0 +1,13 @@
+com\konga\test\TestBase\Result.class
+com\konga\test\TestBase\UITest.class
+com\konga\util\EmailUtil.class
+com\konga\test\CheckOut.class
+com\konga\test\TestBase\Login.class
+com\konga\test\TestBase\User.class
+com\konga\test\SearchTest.class
+com\konga\listeners\kWebListeners.class
+com\konga\test\UITest.class
+com\konga\test\launchSite.class
+com\konga\test\LoginViaEmail.class
+com\konga\test\TestBase\BaseTest.class
+com\konga\util\EmailUtil$1.class

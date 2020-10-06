@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="KTest" verbose="0" >
+    <test name="Test E-Commerce">
+     <classes>
+      <class name="com.konga.test.CartValidationTest"/>
+    </classes>
+    </test>
+</suite>
+

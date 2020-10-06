@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [KTest]">
+  <test thread-count="5" verbose="0" name="Login Test(failed)">
+    <classes>
+      <class name="com.konga.test.LoginViaEmail">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="incorrectEmail"/>
+        </methods>
+      </class> <!-- com.konga.test.LoginViaEmail -->
+      <class name="com.konga.test.CheckoutTest">
+        <methods>
+          <include name="checkoutTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.konga.test.CheckoutTest -->
+      <class name="com.konga.test.SignupTest">
+        <methods>
+          <include name="testSignupPasswordError"/>
+          <include name="tearDown"/>
+          <include name="testSignupPhoneError"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.konga.test.SignupTest -->
+      <class name="com.konga.test.CheckOut">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDown"/>
+          <include name="checkout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.konga.test.CheckOut -->
+      <class name="com.konga.test.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.konga.test.SearchTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [KTest] -->

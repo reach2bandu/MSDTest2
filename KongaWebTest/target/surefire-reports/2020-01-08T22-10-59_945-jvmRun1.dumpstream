@@ -1,0 +1,118 @@
+# Created at 2020-01-08T22:13:12.692
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2020-01-08T22:13:18.770
+Unexpected IOException with stream: Jan 08, 2020 10:13:18 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+
+
+# Created at 2020-01-08T22:13:19.023
+Unexpected IOException: 8,1,com.konga.test.CheckoutTest,setUp(com.konga.test.CheckoutTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,CheckoutTest.setUp:18->BaseTest.setUp:20 \00BB NoSuchWindow no such window: target...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3\000A\0009at com.konga.test.CheckoutTest.setUp(CheckoutTest.java:18)\000A
+
+
+# Created at 2020-01-08T22:13:19.027
+Unexpected IOException: 9,1,com.konga.test.SearchTest,setUp(com.konga.test.SearchTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.223
+Unexpected IOException: 9,1,com.konga.test.CheckOut,setUpClass(com.konga.test.CheckOut),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.363
+Unexpected IOException: 5,1,com.konga.test.CheckOut,checkout(com.konga.test.CheckOut),com.konga.test.CheckOut,null,null
+
+
+# Created at 2020-01-08T22:13:19.366
+Unexpected IOException: 9,1,com.konga.test.CheckOut,checkout(com.konga.test.CheckOut),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null
+
+
+# Created at 2020-01-08T22:13:19.371
+Unexpected IOException: 9,1,com.konga.test.CheckOut,tearDownClass(com.konga.test.CheckOut),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.374
+Unexpected IOException: 9,1,com.konga.test.LoginViaEmail,setup(com.konga.test.LoginViaEmail),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.375
+Unexpected IOException: 5,1,com.konga.test.LoginViaEmail,incorrectEmail(com.konga.test.LoginViaEmail),com.konga.test.LoginViaEmail,null,null
+
+
+# Created at 2020-01-08T22:13:19.376
+Unexpected IOException: 9,1,com.konga.test.LoginViaEmail,incorrectEmail(com.konga.test.LoginViaEmail),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null
+
+
+# Created at 2020-01-08T22:13:19.377
+Unexpected IOException: 9,1,com.konga.test.LoginViaEmail,tearDown(com.konga.test.LoginViaEmail),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.382
+Unexpected IOException: 5,1,com.konga.test.CheckoutTest,checkoutTest(com.konga.test.CheckoutTest),com.konga.test.CheckoutTest,null,null
+
+
+# Created at 2020-01-08T22:13:19.383
+Unexpected IOException: 9,1,com.konga.test.CheckoutTest,checkoutTest(com.konga.test.CheckoutTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null
+
+
+# Created at 2020-01-08T22:13:19.385
+Unexpected IOException: 5,1,com.konga.test.SearchTest,search(com.konga.test.SearchTest),com.konga.test.SearchTest,null,null
+
+
+# Created at 2020-01-08T22:13:19.386
+Unexpected IOException: 9,1,com.konga.test.SearchTest,search(com.konga.test.SearchTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null
+
+
+# Created at 2020-01-08T22:13:19.391
+Unexpected IOException: 9,1,com.konga.test.SignupTest,setUp(com.konga.test.SignupTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.392
+Unexpected IOException: 5,1,com.konga.test.SignupTest,testSignupPasswordError(com.konga.test.SignupTest),com.konga.test.SignupTest,null,null
+
+
+# Created at 2020-01-08T22:13:19.394
+Unexpected IOException: 9,1,com.konga.test.SignupTest,testSignupPasswordError(com.konga.test.SignupTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null
+
+
+# Created at 2020-01-08T22:13:19.398
+Unexpected IOException: 9,1,com.konga.test.SignupTest,tearDown(com.konga.test.SignupTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.401
+Unexpected IOException: 9,1,com.konga.test.SignupTest,setUp(com.konga.test.SignupTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.403
+Unexpected IOException: 5,1,com.konga.test.SignupTest,testSignupPhoneError(com.konga.test.SignupTest),com.konga.test.SignupTest,null,null
+
+
+# Created at 2020-01-08T22:13:19.404
+Unexpected IOException: 9,1,com.konga.test.SignupTest,testSignupPhoneError(com.konga.test.SignupTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.88)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'RV-PC'\002C ip: '192.168.43.204'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_231'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})\002C userDataDir=C:\005CUsers\005Crv\005CAppData\005CLocal\005CTemp\005Cscoped_dir6684_2076217732}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:49773}\002C acceptInsecureCerts=false\002C browserVersion=79.0.3945.88\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true}]\000ASession ID: b442dc3dd5eee55adcea5151978ce8c3,null
+
+
+# Created at 2020-01-08T22:13:19.405
+Unexpected IOException: 9,1,com.konga.test.SignupTest,tearDown(com.konga.test.SignupTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.406
+Unexpected IOException: 9,1,com.konga.test.CheckOut,tearDown(com.konga.test.CheckOut),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.410
+Unexpected IOException: 9,1,com.konga.test.CheckoutTest,tearDown(com.konga.test.CheckoutTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:19.411
+Unexpected IOException: 9,1,com.konga.test.SearchTest,tearDown(com.konga.test.SearchTest),null,null,null
+
+
+# Created at 2020-01-08T22:13:21.497
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

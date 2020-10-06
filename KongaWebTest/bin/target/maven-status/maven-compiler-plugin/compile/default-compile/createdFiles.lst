@@ -1,0 +1,8 @@
+com\test\Actions.class
+com\test\TestBase\Result.class
+com\test\launchSite.class
+com\test\Login.class
+com\test\AddToCart.class
+com\test\CheckOut.class
+com\test\TestBase\UITest.class
+com\test\UITest.class
